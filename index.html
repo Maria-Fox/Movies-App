@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Ratings</title>
+    <link rel="stylesheet" href="movie.css" />
+  </head>
+  <body>
+    <h1>Movie Reviews</h1>
+    <div id="full-body">
+    
+    <div id="movie-div">
+    <form id="movieForm">
+      <label for="movieName" name="movieName" 
+        >Movie
+        <input
+          type="text"
+          id="movieName" minLength ="2"
+          placeholder="Pirate's of the Caribbean" required
+        />
+      </label>
+    </div>
+    <div id="rating-div">
+      <label for="rating-score">
+        Movie Rating
+        <input type="number" id="rating-score" min="1" max="10" required>
+      </label>
+      <div id="submit"><button type="submit">Submit</button></div>
+    </form>
+  </div>
+</div>
+<table id="reviews"><thead> 
+  <tr><th>Movie Title</th><th>Rating</th><th>Remove</th></tr>
+</thead>
+  <tbody id="tbody"></tbody></table>
+    <!-- Scripts below -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="movie.js"></script>
+  </body>
+</html>

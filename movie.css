@@ -1,0 +1,54 @@
+/* CSS for Movie App - aware formatting needs work. Returning to project as time allows to make more user friendly */
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/7234304/pexels-photo-7234304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1;");
+
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#movieForm,
+#rating-div,
+#submit {
+  margin: 5px;
+  padding: 5px;
+}
+
+#full-body {
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  width: 90%;
+}
+
+#reviews {
+  margin: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  border-collapse: collapse;
+  padding: 5px;
+}
